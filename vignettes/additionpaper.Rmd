@@ -1,0 +1,17 @@
+---
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{mrsapaper.Rmd}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+# The examples of what can be done with the *addition* package
+
+```{r, echo = FALSE, eval = TRUE, message = FALSE, results = 'hide'}
+library(addition)
+a <- 1
+b <- 2
+temp <- add(a,b)
+```
+It turns out that `r a` plus `r b` equals `r temp`

@@ -1,0 +1,17 @@
+Package: addition
+Title: Package To Add Numbers
+Version: 0.1
+Date: 2016-01-27
+Author: Thomas Rosendal
+Maintainer: Thomas Rosendal <thomas.rosendal@sva.se>
+Description: A sample package to present the minimum structure of a
+	     valid R package with a few extra basic components that are often
+	     included.
+License: GPL-2
+Type: Package
+LazyLoad: yes
+VignetteBuilder: knitr
+Collate:
+	'addition.R'
+	'data.R'
+RoxygenNote: 5.0.1
