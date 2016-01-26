@@ -35,7 +35,7 @@ check: clean
 # Build with vignettes and check and install package
 full_build_check_install: clean
 	cd .. && R CMD build $(PKG_NAME)
-	cd .. && R CMD check --no-manual $(PKG_TAR)
+	cd .. && R CMD check $(PKG_TAR)
 	cd .. && R CMD INSTALL $(PKG_TAR)
 
 # Build the Vignette Locally
